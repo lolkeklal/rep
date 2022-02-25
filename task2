@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+ long long n,m,s,a,b;
+ cin>>n;
+ while(n--){
+ cin>>m>>s;
+ a=s/m;
+ b=s%m;
+  cout<<(a*a*m+2*a*b+b)<<endl;
+ }
+}
